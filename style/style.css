@@ -1,0 +1,51 @@
+body {
+    border: 2px solid grey;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    border: 5px solid rgb(19, 1, 1);
+    height: 30px;
+}
+
+.container>div {
+    padding: 5px;
+    font-size: 15px;
+    border: 1px solid;
+    margin-right: 15px;
+    background-color: rgb(136, 12, 12);
+    color: white;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.content>div {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabel_data {
+    border: 2px solid;
+
+}
+
+th {
+    border: 1px solid;
+    padding: 15px;
+}
+
+td {
+    border: 1px solid;
+    margin: 20px;
+    padding: 2px;
+}
+
+button{
+    padding: 5px;
+}
